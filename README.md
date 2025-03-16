@@ -10,15 +10,9 @@ This project focuses on designing and managing a relational database, including 
 - **Database Security** – Used **GRANT & REVOKE** for access control.
 
 ## Database Schema
-The database consists of multiple tables:
-- **Branch** – Stores bookstore branch details.
-- **Publisher** – Maintains publisher information.
-- **Author** – Contains author details.
-- **Book** – Stores book information (ISBN, title, publisher, genre, price).
-- **Wrote** – Links authors to books (many-to-many relationship).
-- **Inventory** – Tracks stock levels per branch.
+- The database consists of multiple tables
 
-## 🛠️ SQL Implementations
+## SQL Implementations
 ### **Database Creation & Schema Setup**
 - Designed and implemented relational tables with appropriate **primary and foreign keys** to maintain data integrity.
 
@@ -30,7 +24,6 @@ The database consists of multiple tables:
 
 ### **User Access Control & Security**
 - Implemented **role-based access control (RBAC)** using `GRANT` and `REVOKE` to manage database permissions securely.
-
 
 ## Skills Gained
 - **SQL Database Design**
